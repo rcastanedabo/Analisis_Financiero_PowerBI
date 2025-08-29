@@ -81,7 +81,19 @@ La rentabilidad es sobresaliente: margen bruto 89,5%, margen neto 28,5%, ROA 42%
 
 ## 📖 Diccionario de Datos
 
-*(Se mantiene igual que antes, aquí incluirías la tabla con campos, tipos y descripciones)*
+| Campo | Tipo | Descripción | Ejemplo |
+|-------|------|-------------|---------|
+| **CUENTA** | Texto | Código contable según PCGE/empresa. | 6030130001 |
+| **NOMBRE DE LA CUENTA** | Texto | Nombre de la cuenta contable. | MANTENIMIENTO DE TRACTORES |
+| **Fecha** | Fecha | Fecha contable de la transacción. | 01/05/2017 |
+| **Monto** | Decimal | Valor monetario de la transacción. | 1250.50 |
+| **CUENTA T** | Texto | Cuenta T o agrupadora. | 6030113001 |
+| **NIVEL 1** | Texto | Clase principal (Activo, Pasivo, Patrimonio, Ingresos, Gastos, Costos). | GASTOS |
+| **NIVEL 2** | Texto | Subclase (ej. Gastos de Operación). | GASTOS DE OPERACIÓN |
+| **NIVEL 3** | Texto | Agrupación detallada. | GASTOS ADMINISTRATIVOS |
+| **NIVEL 4** | Texto | Subagrupación específica. | MANTENIMIENTOS CORRECTIVOS |
+| **NIVEL 5** | Texto | Detalle más específico. | MANTENIMIENTO DE FUMIGADORA |
+| **Orden** | Entero | Control de orden en reportes. | 5 |
 
 ---
 
